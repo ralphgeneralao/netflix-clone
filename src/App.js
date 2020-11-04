@@ -1,11 +1,12 @@
-import './App.css';
+import React from 'react'
+import { FooterContainer } from './containers/Footer';
+import { JumbotronContainer } from './containers/Jumbotron';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <p>Hello world!</p>
-    </div>
+    <>
+      <JumbotronContainer />
+      <FooterContainer />
+    </>
   );
 }
-
-export default App;
